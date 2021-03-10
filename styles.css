@@ -1,0 +1,102 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4a4b65;
+    margin: 0;
+    padding: 0;
+}
+.top{
+    background-color: whitesmoke;
+    color:#4a4b65;
+    font-size: 25px;
+    display: flex;
+    flex-flow: row wrap;
+}
+.alex{
+    text-align: left;
+    text-indent: 80px;
+    padding: 160px 0;
+}
+#graphic{
+    font-size: 25px;
+    text-indent: 118px;
+}
+.cover{
+    background-color: whitesmoke;
+}
+.sec1{
+    background-color: rgba(118,109,244,0.08);
+    display: flex;
+}
+.illus1{
+    background-color: rgba(118,109,244,0.08);
+    max-width: 100%;
+    padding: 50px 0 0 0;
+}
+.icons{
+    background-color: rgba(118,109,244,0.08);
+    color:#4a4b65;
+    display: block;
+    text-align: center;
+    font-size: 17px;
+}
+#portfolio{
+    background-color: whitesmoke;
+    color: #4a4b65;
+    text-align: center;
+    font-size: 23px;
+    padding: 50px 0 30px 0;
+}
+.sec2{
+    background-color: whitesmoke;
+    color: #4a4b65;
+    text-align: center;
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.icons2{
+    color: #4a4b65;
+    display: block;
+    flex-direction: row;
+    text-align: center;
+    font-size: 17px;
+    padding: 0 10px 0 10px;
+}
+.icons3{
+    color: #4a4b65;
+    display:block;
+    flex-direction: row;
+    text-align: center;
+    font-size: 18px;
+    padding: 0 10px 0 10px;
+}
+.sec3{
+    background-color: rgba(118,109,244,0.08);
+    text-align: center;
+    padding: 50px;
+    font-size: 17px;
+}
+h4{
+    color: #4a4b65;
+    font-size: 28px;
+}
+footer{
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    .top{
+        flex-wrap: wrap;
+    }
+    .sec1{
+        flex-wrap: wrap;
+    }
+    .responsive{
+        width: 100%;
+        height: auto;
+    }
+}
+
